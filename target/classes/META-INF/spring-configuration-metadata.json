@@ -1,0 +1,73 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "demo.entity.Person",
+      "sourceType": "demo.entity.Person"
+    },
+    {
+      "name": "url",
+      "type": "demo.util.MicroServiceUrl",
+      "sourceType": "demo.util.MicroServiceUrl"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "demo.entity.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "demo.entity.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "demo.entity.Person",
+      "defaultValue": false
+    },
+    {
+      "name": "person.gender",
+      "type": "java.lang.String",
+      "sourceType": "demo.entity.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "demo.entity.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "demo.entity.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "demo.entity.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "demo.entity.Pet",
+      "sourceType": "demo.entity.Person"
+    },
+    {
+      "name": "url.order-url",
+      "type": "java.lang.String",
+      "sourceType": "demo.util.MicroServiceUrl"
+    },
+    {
+      "name": "url.shopping-url",
+      "type": "java.lang.String",
+      "sourceType": "demo.util.MicroServiceUrl"
+    },
+    {
+      "name": "url.user-url",
+      "type": "java.lang.String",
+      "sourceType": "demo.util.MicroServiceUrl"
+    }
+  ],
+  "hints": []
+}

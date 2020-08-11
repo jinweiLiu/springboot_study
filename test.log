@@ -1,0 +1,22 @@
+2020-08-11 12:13:03.939  INFO 10564 --- [main] demo.MainApplication                     : Starting MainApplication on Black with PID 10564 (started by Windows in D:\IntelliJ IDEA\project\MyMavenTest)
+2020-08-11 12:13:03.939  INFO 10564 --- [main] demo.MainApplication                     : The following profiles are active: pro
+2020-08-11 12:13:06.019  INFO 10564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2020-08-11 12:13:06.029  INFO 10564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-11 12:13:06.029  INFO 10564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-11 12:13:06.179  INFO 10564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/test]   : Initializing Spring embedded WebApplicationContext
+2020-08-11 12:13:06.179  INFO 10564 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2110 ms
+2020-08-11 12:13:06.239  INFO 10564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-11 12:13:06.669  INFO 10564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-11 12:13:06.669  INFO 10564 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/MyMavenTest'
+2020-08-11 12:13:07.239  INFO 10564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-11 12:13:07.609  INFO 10564 --- [main] demo.service.PetService                  : Pet{name='dog', age=6}
+2020-08-11 12:13:07.649  INFO 10564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path '/test'
+2020-08-11 12:13:07.649  INFO 10564 --- [main] demo.MainApplication                     : Started MainApplication in 4.691 seconds (JVM running for 7.827)
+2020-08-11 12:13:12.010  INFO 10564 --- [http-nio-8002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/test]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-11 12:13:12.011  INFO 10564 --- [http-nio-8002-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-11 12:13:12.028  INFO 10564 --- [http-nio-8002-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-08-11 12:13:12.059  INFO 10564 --- [http-nio-8002-exec-2] demo.handler.LogAspectHandler            : ====doBefore方法进入了====
+2020-08-11 12:13:12.061  INFO 10564 --- [http-nio-8002-exec-2] demo.handler.LogAspectHandler            : 即将执行方法为: getPet，属于demo.controller.TestController包
+2020-08-11 12:13:12.062  INFO 10564 --- [http-nio-8002-exec-2] demo.handler.LogAspectHandler            : 用户请求的url为：http://localhost:8002/test/pet，ip地址为：0:0:0:0:0:0:0:1
+2020-08-11 12:13:12.070  INFO 10564 --- [http-nio-8002-exec-2] demo.handler.LogAspectHandler            : ====doAfter方法进入了====
+2020-08-11 12:13:12.071  INFO 10564 --- [http-nio-8002-exec-2] demo.handler.LogAspectHandler            : 方法getPet已经执行完
