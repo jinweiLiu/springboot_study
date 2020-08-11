@@ -4,10 +4,10 @@ server:
     context-path: /test  #配置localhost:8080/test下访问
 
 #配置日志 可使用xml 也可以使用配置文件
-logging:
-  config:
-  file:
-    name: test.log
+#logging:
+#  config:
+#  file:
+#    name: test.log
 
 # 配置多个微服务的地址
 url:
