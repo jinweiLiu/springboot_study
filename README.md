@@ -17,3 +17,12 @@
     - 基于注解的整合
     - 基于xml的整合
  - 监听器
+    - 监听servlet上下文：初始化数据
+    - 监听session：获取在线人数
+    - 监听servlet request
+    - 自定义监听
+ - 拦截器
+    - 自定义拦截器对象，包含`preHandle()` `postHandle()` `afterCompletion()`
+    - 拦截器配置，spring boot 2.0之前继承`WebMvcConfigurerAdapter`类,2.0之后继承`WebMvcConfigurationSupport`类
+    - 会产生静态资源被拦截的问题，重写`addResourceHandlers`方法
+    
