@@ -25,4 +25,8 @@
     - 自定义拦截器对象，包含`preHandle()` `postHandle()` `afterCompletion()`
     - 拦截器配置，spring boot 2.0之前继承`WebMvcConfigurerAdapter`类,2.0之后继承`WebMvcConfigurationSupport`类
     - 会产生静态资源被拦截的问题，重写`addResourceHandlers`方法
+ - Redis
+    - 引入Redis依赖
+    - 配置Redis
+    - 使用StringRedisTemplate对Redis进行操作
     
