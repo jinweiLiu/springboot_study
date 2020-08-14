@@ -29,4 +29,12 @@
     - 引入Redis依赖
     - 配置Redis
     - 使用StringRedisTemplate对Redis进行操作
-    
+ - Thymeleaf模板引擎
+    - 错误页面自动配置 /templates/error 4xx.html 5xx.html
+    - 对象、数组的使用  
+ - ActiveMq消息队列
+    - 配置连接url: tcp://localhost:61616 
+    - 管理 http:localhost:8161/admin 用户名和密码为admin
+    - 目的地（Queue Topic）
+    - 发送者
+    - 消费者

@@ -6,6 +6,8 @@
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/service/RedisService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +71,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -101,6 +104,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite&#10;h2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -118,8 +122,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="demo" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA\project\springboot_study\src\main\resources\templates\error" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RedisTest.redisString">
+  <component name="RunManager" selected="Spring Boot.MainApplication ">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMavenTest" />
       <extension name="coverage">
@@ -184,13 +191,13 @@
     <list>
       <item itemvalue="JUnit.PersonTest" />
       <item itemvalue="JUnit.PersonTest.test" />
-      <item itemvalue="Spring Boot.MainApplication " />
       <item itemvalue="JUnit.RedisTest.redisString" />
+      <item itemvalue="Spring Boot.MainApplication " />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RedisTest.redisString" />
         <item itemvalue="Spring Boot.MainApplication " />
+        <item itemvalue="JUnit.RedisTest.redisString" />
         <item itemvalue="JUnit.PersonTest.test" />
         <item itemvalue="JUnit.PersonTest" />
       </list>
@@ -241,6 +248,7 @@
       <workItem from="1597132043294" duration="215000" />
       <workItem from="1597200124782" duration="1861000" />
       <workItem from="1597290153717" duration="1099000" />
+      <workItem from="1597386881575" duration="3307000" />
     </task>
     <servers />
   </component>
@@ -280,38 +288,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1597112878969" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1597291281046">
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1597390989397">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597291281046" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1597291281046">
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597390989397" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1597390989396">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597291281046" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1597291281046">
+    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597390989396" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1597390989396">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597291281046" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1597291281046">
+    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597390989396" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1597390989396">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597291281046" />
-    <state width="1493" height="236" key="GridCell.Tab.1.bottom" timestamp="1597202053212">
+    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597390989396" />
+    <state width="1493" height="236" key="GridCell.Tab.1.bottom" timestamp="1597390989397">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597202053212" />
-    <state width="1493" height="236" key="GridCell.Tab.1.center" timestamp="1597202053212">
+    <state width="1493" height="236" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597390989397" />
+    <state width="1493" height="236" key="GridCell.Tab.1.center" timestamp="1597390989397">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1597202053212" />
-    <state width="1493" height="236" key="GridCell.Tab.1.left" timestamp="1597202053212">
+    <state width="1493" height="236" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1597390989397" />
+    <state width="1493" height="236" key="GridCell.Tab.1.left" timestamp="1597390989397">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1597202053212" />
-    <state width="1493" height="236" key="GridCell.Tab.1.right" timestamp="1597202053212">
+    <state width="1493" height="236" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1597390989397" />
+    <state width="1493" height="236" key="GridCell.Tab.1.right" timestamp="1597390989397">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1597202053212" />
+    <state width="1493" height="236" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1597390989397" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1596871508830">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -328,5 +336,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="485" y="57" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1597117261574" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1597389992976">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1597389992976" />
   </component>
 </project>
