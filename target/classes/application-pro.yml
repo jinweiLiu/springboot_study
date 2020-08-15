@@ -52,3 +52,5 @@ spring:
       enabled: false
     user: admin
     password: admin
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml

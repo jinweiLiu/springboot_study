@@ -38,3 +38,8 @@
     - 目的地（Queue Topic）
     - 发送者
     - 消费者
+    - 点对点模式（Queue） 发布/订阅模式（Topic）
+ - 权限管理（Shiro）
+    - 三大组件 `Subject`、`SecurityManager` 和 `Realm`
+    - 权限认证 `权限`，`角色`和`用户`
+    

@@ -1,14 +1,14 @@
 package demo.controller;
 
 import demo.entity.Pet;
-import demo.mapper.PetMapper;
+import demo.entity.User;
 import demo.service.PetService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import sun.awt.ModalExclude;
+
 
 import javax.annotation.Resource;
 
@@ -34,5 +34,20 @@ public class ViewController {
         Pet pet = petService.getPet();
         model.addAttribute("pet",pet);
         return "index";
+    }
+
+    @RequestMapping("/form")
+    public String index(ModelMap map){
+        User user = new User();
+        user.setPassword("123456");
+        user.setUsername("csdn1");
+
+        map.put("user", user);
+        return "login";
+    }
+
+    @RequestMapping("/unauthorized")
+    public String unauthorized(){
+        return "unauthorized";
     }
 }

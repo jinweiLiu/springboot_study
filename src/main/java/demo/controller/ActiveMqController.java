@@ -18,11 +18,22 @@ public class ActiveMqController {
     @Resource
     private Destination queue;
 
+    @Resource
+    private Destination topic;
+
     @GetMapping("/send/queue")
     public String sendQueueMessage() {
 
         log.info("===开始发送点对点消息===");
         producer.sendMessage(queue, "Queue: hello activemq!");
+        return "success";
+    }
+
+    @GetMapping("/send/topic")
+    public String sendTopicMessage() {
+
+        log.info("===开始发送点对点消息===");
+        producer.sendMessage(topic, "Topic: hello activemq!");
         return "success";
     }
 }
