@@ -5,10 +5,11 @@
     <title>登录</title>
 </head>
 <body>
-<form action="#" th:action="@{/login}" th:object="${user}" method="post">
+<form action="#" th:action="@{/submit}" th:object="${user}" method="post">
     <input type="text" th:field="*{username}" />
     <br>
     <input type="text" th:field="*{password}" />
+    <p th:text="${error}"></p>
     <input type="submit" />
 </form>
 </body>

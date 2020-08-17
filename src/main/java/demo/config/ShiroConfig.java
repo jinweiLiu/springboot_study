@@ -3,6 +3,7 @@ package demo.config;
 import demo.util.MyRealm;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
+import org.apache.shiro.web.filter.authc.LogoutFilter;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -68,7 +69,8 @@ public class ShiroConfig {
         filterChainMap.put("/teacher*/**", "perms[\"user:create\"]");
 
         // 配置logout过滤器
-        filterChainMap.put("/logout", "logout");
+        filterChainMap.put("/logout", "anon");
+        //filterChainMap.put("/logout", "logout");
 
         // 设置shiroFilterFactoryBean的FilterChainDefinitionMap
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainMap);

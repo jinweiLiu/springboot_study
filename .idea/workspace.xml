@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f07d3a47-6916-48ef-94ab-9979f33f6c15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/070e4c2c-9df1-4765-a480-8f8617c44441.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/070e4c2c-9df1-4765-a480-8f8617c44441.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/070e4c2c-9df1-4765-a480-8f8617c44441/storage_v2/_src_/database/MYMAVENTEST.UZCc7g/schema/PUBLIC.aaZQjQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/070e4c2c-9df1-4765-a480-8f8617c44441/storage_v2/_src_/database/MYMAVENTEST.UZCc7g/schema/PUBLIC.aaZQjQ.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/config/ActiveMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/config/ActiveMqConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/controller/ActiveMqController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/controller/ActiveMqController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/controller/ViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-pro.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-pro.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/config/ActiveMqConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/config/ActiveMqConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/controller/ActiveMqController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/controller/ActiveMqController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/config/ShiroConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/demo/controller/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/controller/ViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,9 +204,9 @@
     <list>
       <item itemvalue="JUnit.PersonTest.test" />
       <item itemvalue="JUnit.RedisTest.redisString" />
-      <item itemvalue="Spring Boot.MainApplication " />
       <item itemvalue="JUnit.PersonTest.testUserService" />
       <item itemvalue="JUnit.PersonTest.testGetRole" />
+      <item itemvalue="Spring Boot.MainApplication " />
     </list>
     <recent_temporary>
       <list>
@@ -269,6 +265,8 @@
       <workItem from="1597290153717" duration="1099000" />
       <workItem from="1597386881575" duration="3307000" />
       <workItem from="1597461102129" duration="9678000" />
+      <workItem from="1597480108616" duration="3229000" />
+      <workItem from="1597623678385" duration="2806000" />
     </task>
     <servers />
   </component>
@@ -284,14 +282,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="328" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1597132216296" />
-    <state x="489" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596787075728">
+    <state x="489" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597624179397">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="489" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1596787075728" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1597200370707">
+    <state x="489" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1597624179397" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1597624900271">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1597200370707" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1597624900271" />
     <state x="398" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597291137715">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -308,38 +306,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1597112878969" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1597476561838">
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1597626489466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597476561838" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1597476561837">
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597626489466" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1597626489466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597476561837" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1597476561837">
+    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597626489466" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1597626489466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597476561837" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1597476561837">
+    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597626489466" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1597626489466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597476561837" />
-    <state width="1493" height="236" key="GridCell.Tab.1.bottom" timestamp="1597476561838">
+    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597626489466" />
+    <state width="1493" height="236" key="GridCell.Tab.1.bottom" timestamp="1597626489466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597476561838" />
-    <state width="1493" height="236" key="GridCell.Tab.1.center" timestamp="1597476561838">
+    <state width="1493" height="236" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597626489466" />
+    <state width="1493" height="236" key="GridCell.Tab.1.center" timestamp="1597626489466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1597476561838" />
-    <state width="1493" height="236" key="GridCell.Tab.1.left" timestamp="1597476561838">
+    <state width="1493" height="236" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1597626489466" />
+    <state width="1493" height="236" key="GridCell.Tab.1.left" timestamp="1597626489466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1597476561838" />
-    <state width="1493" height="236" key="GridCell.Tab.1.right" timestamp="1597476561838">
+    <state width="1493" height="236" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1597626489466" />
+    <state width="1493" height="236" key="GridCell.Tab.1.right" timestamp="1597626489466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1597476561838" />
+    <state width="1493" height="236" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1597626489466" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1596871508830">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

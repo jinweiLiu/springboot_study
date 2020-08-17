@@ -44,6 +44,8 @@ spring:
         max-wait: 2000
   thymeleaf:
     cache: false
+    prefix: classpath:/templates/
+    suffix: .html
   activemq:
     broker-url: tcp://localhost:61616
     in-memory: true
