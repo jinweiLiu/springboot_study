@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+</head>
+<body>
+User信息
+<table border="1" th:object="${user}">
+    <tr>
+        <td>用户名字</td>
+        <td th:text="${user.getUsername()}"></td>
+    </tr>
+    <tr>
+        <td>用户密码</td>
+        <td th:text="${user.getPassword()}"></td>
+    </tr>
+</table>
+</body>
+</html>
