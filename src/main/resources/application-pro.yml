@@ -54,5 +54,18 @@ spring:
       enabled: false
     user: admin
     password: admin
+    #邮件配置
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: xxx@qq.com
+    password: #授权码
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml

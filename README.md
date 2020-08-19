@@ -42,4 +42,10 @@
  - 权限管理（Shiro）
     - 三大组件 `Subject`、`SecurityManager` 和 `Realm`
     - 权限认证 `权限`，`角色`和`用户`
+    - spring security
+ - 邮件
+    - 生成授权码
+    - 引入依赖，配置spring.mail
+    - 利用JavaMailSender配置MailService
+    - 测试
     

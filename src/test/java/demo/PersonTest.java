@@ -1,6 +1,7 @@
 package demo;
 
 import demo.entity.Person;
+import demo.service.MailService;
 import demo.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,9 @@ public class PersonTest {
     @Resource
     private UserService userService;
 
+    @Resource
+    private MailService mailService;
+
     @Test
     public void test(){
         System.out.println(person.toString());
@@ -27,7 +31,10 @@ public class PersonTest {
     }
 
     @Test
-    public void testGetRole(){
-        System.out.println(userService.getPermissions("csdn1").toString());
+    public void sendMail(){
+        mailService.sendSimpleMaile("2428455191@qq.com",
+                "jwliu0213@163.com",
+                "test",
+                "test");
     }
 }
