@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f07d3a47-6916-48ef-94ab-9979f33f6c15" name="Default Changelist" comment="">
+    <list default="true" id="f07d3a47-6916-48ef-94ab-9979f33f6c15" name="Default Changelist" comment="整合邮件服务">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/MainApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-pro.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/demo/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/demo/PersonTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.sendMail">
+  <component name="RunManager" selected="Spring Boot.MainApplication ">
     <configuration name="PersonTest.sendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_study" />
       <extension name="coverage">
@@ -217,6 +218,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="demo.MainApplication" />
+      <option name="PROGRAM_PARAMETERS" value="command1 command2" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -226,13 +228,13 @@
       <item itemvalue="JUnit.RedisTest.redisString" />
       <item itemvalue="JUnit.PersonTest.testUserService" />
       <item itemvalue="JUnit.PersonTest.testGetRole" />
-      <item itemvalue="Spring Boot.MainApplication " />
       <item itemvalue="JUnit.PersonTest.sendMail" />
+      <item itemvalue="Spring Boot.MainApplication " />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonTest.sendMail" />
         <item itemvalue="Spring Boot.MainApplication " />
+        <item itemvalue="JUnit.PersonTest.sendMail" />
         <item itemvalue="JUnit.PersonTest.testGetRole" />
         <item itemvalue="JUnit.PersonTest.testUserService" />
         <item itemvalue="JUnit.RedisTest.redisString" />
@@ -290,7 +292,8 @@
       <workItem from="1597623678385" duration="2947000" />
       <workItem from="1597631068136" duration="180000" />
       <workItem from="1597636620403" duration="289000" />
-      <workItem from="1597802577812" duration="1496000" />
+      <workItem from="1597802577812" duration="1805000" />
+      <workItem from="1597906947141" duration="1813000" />
     </task>
     <task id="LOCAL-00001" summary="小修改">
       <created>1597626563626</created>
@@ -306,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597626615106</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="整合邮件服务">
+      <created>1597804176555</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597804176555</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,25 +337,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="小修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="小修改" />
+    <MESSAGE value="整合邮件服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合邮件服务" />
   </component>
   <component name="WindowStateProjectService">
     <state x="403" y="0" width="744" height="834" key="#MainApplication" timestamp="1597132127145">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="403" y="0" width="744" height="834" key="#MainApplication/0.0.1536.834@0.0.1536.834" timestamp="1597132127145" />
-    <state x="328" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597132216296">
+    <state x="328" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597907448997">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="328" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1597132216296" />
+    <state x="328" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1597907448997" />
     <state x="489" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597624179397">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="489" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1597624179397" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1597636811045">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1597907394541">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1597636811045" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1597907394541" />
     <state x="398" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597291137715">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -358,46 +369,46 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1596872494718" />
-    <state x="352" y="9" key="CommitChangelistDialog2" timestamp="1597626605046">
+    <state x="352" y="9" key="CommitChangelistDialog2" timestamp="1597804258878">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="352" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1597626605046" />
+    <state x="352" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1597804258878" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1597112878969">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1597112878969" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1597803839089">
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1597908562736">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597803839089" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1597803839089">
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597908562736" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1597908562735">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597803839089" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1597803839089">
+    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597908562735" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1597908562734">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597803839089" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1597803839089">
+    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597908562734" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1597908562735">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597803839089" />
-    <state width="1493" height="236" key="GridCell.Tab.1.bottom" timestamp="1597631251865">
+    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597908562735" />
+    <state width="1493" height="236" key="GridCell.Tab.1.bottom" timestamp="1597908562737">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597631251865" />
-    <state width="1493" height="236" key="GridCell.Tab.1.center" timestamp="1597631251865">
+    <state width="1493" height="236" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597908562737" />
+    <state width="1493" height="236" key="GridCell.Tab.1.center" timestamp="1597908562736">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1597631251865" />
-    <state width="1493" height="236" key="GridCell.Tab.1.left" timestamp="1597631251865">
+    <state width="1493" height="236" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1597908562736" />
+    <state width="1493" height="236" key="GridCell.Tab.1.left" timestamp="1597908562736">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1597631251865" />
-    <state width="1493" height="236" key="GridCell.Tab.1.right" timestamp="1597631251865">
+    <state width="1493" height="236" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1597908562736" />
+    <state width="1493" height="236" key="GridCell.Tab.1.right" timestamp="1597908562737">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1597631251865" />
+    <state width="1493" height="236" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1597908562737" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1596871508830">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -406,10 +417,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1596788589258" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597626569086">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597804192793">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597626569086" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597804192793" />
     <state x="664" y="299" width="340" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1597117219960">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

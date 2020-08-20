@@ -48,4 +48,23 @@
     - 引入依赖，配置spring.mail
     - 利用JavaMailSender配置MailService
     - 测试
-    
+ - 启动系统任务
+    - 特殊的任务需要系统启动时执行，例如配置文件加载、数据库初始化
+    - CommandLineRunner
+    - ApplicationRunner
+    - 基本一致，两者主要差别体现在参数上
+ - 定时任务
+    - @Scheduled(initialDelay = , fixedRate = ) 
+    - @EnableScheduling 开启定时任务
+    - cron = "* * * * * * *" 六个或七个   
+    ```bash
+       字段　　允许值　　允许的特殊字符 
+       秒     　 0-59 　　　　, - * / 
+       分     　 0-59　　　　 , - * / 
+       小时      0-23 　　　　, - * / 
+       日期      1-31 　　　　, - * ? / L W C 
+       月份      1-12 　　　　, - * / 
+       星期      1-7 　　　　  , - * ? / L C # 
+       年     1970-2099 　　, - * /
+    ```
+    - Quartz 丰富的开源作业调度库，可以创建简单或复杂的执行计划，支持数据库、集群、插件以及邮件，并且支持cron表达式
