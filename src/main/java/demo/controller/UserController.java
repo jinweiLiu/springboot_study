@@ -1,16 +1,20 @@
 package demo.controller;
 
 import demo.entity.User;
-import jdk.nashorn.internal.objects.Global;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 
+@Slf4j
 @Controller
 public class UserController {
     /**
@@ -70,7 +74,6 @@ public class UserController {
      */
     @RequestMapping("/submit")
     public String login(@ModelAttribute User user, HttpServletRequest request) {
-
         // 根据用户名和密码创建token
         UsernamePasswordToken token = new UsernamePasswordToken(user.getUsername(), user.getPassword());
         // 获取subject认证主体

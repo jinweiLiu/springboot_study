@@ -6,9 +6,11 @@
 </head>
 <body>
 <form action="#" th:action="@{/submit}" th:object="${user}" method="post">
-    <input type="text" th:field="*{username}" />
+    <input type="text" th:field="*{username}"/>
+
     <br>
-    <input type="text" th:field="*{password}" />
+    <input type="text" th:field="*{password}"/>
+
     <p th:text="${error}"></p>
     <input type="submit" />
 </form>

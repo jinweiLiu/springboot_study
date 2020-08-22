@@ -1,5 +1,15 @@
 # Spingboot 学习
  - maven创建项目
+ - 数据校验
+    ```java
+    @NotBlank: 判断字符串是否为 null 或者是空串(去掉首尾空格)。
+    @NotEmpty: 判断字符串是否 null 或者是空串。
+    @Length: 判断字符的长度(最大或者最小)
+    @Min: 判断数值最小值
+    @Max: 判断数值最大值
+    @Email: 判断邮箱是否合法
+    ```
+   - @Valid Users users, BindingResult result
  - 日志使用 Slf4j + logback (springboot默认)
     - 配置文件
     - 更改日志框架
