@@ -53,7 +53,7 @@ public class ViewController {
     }
 
     @RequestMapping("/login")
-    public String login(@ModelAttribute("user") User user){
+    public String login(@ModelAttribute User user){
         return "login";
     }
 }
